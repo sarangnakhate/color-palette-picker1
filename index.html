@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette Picker - Beautiful Color Palettes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-gradient"></div>
+    
+    <div class="container">
+        <header>
+            <div class="logo">🎨</div>
+            <h1>Color Palette Picker</h1>
+            <p>Discover beautiful color combinations • Click any color to copy</p>
+        </header>
+
+        <div class="palette-wrapper">
+            <div class="palette-container" id="paletteContainer">
+                <!-- Color tiles will be generated here -->
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn btn-primary" id="generateBtn">
+                <span>✨</span> Generate New Palette
+            </button>
+            <button class="btn btn-secondary" id="downloadBtn">
+                <span>💾</span> Download as PNG
+            </button>
+            <button class="btn btn-tertiary" id="lockBtn">
+                <span>🔓</span> Lock Colors
+            </button>
+        </div>
+
+        <div class="info-section">
+            <p class="tip">💡 <strong>Pro tip:</strong> Press <kbd>Space</kbd> to generate a new palette</p>
+        </div>
+    </div>
+
+    <canvas id="canvas" style="display: none;"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
