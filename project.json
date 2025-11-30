@@ -1,0 +1,47 @@
+{
+  "name": "color-palette-picker",
+  "displayName": "Color Palette Picker",
+  "description": "A minimal, modern color palette generator that creates beautiful 5-color palettes with one click",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "start": "Open index.html in browser",
+    "serve": "python -m http.server 8000",
+    "deploy": "Deploy to GitHub Pages"
+  },
+  "files": {
+    "html": [
+      "index.html"
+    ],
+    "css": [
+      "style.css"
+    ],
+    "javascript": [
+      "script.js"
+    ],
+    "documentation": [
+      "README.md"
+    ],
+    "config": [
+      ".gitignore",
+      ".kiro/config.json",
+      ".kiro/metadata.json",
+      ".kiro/project.json"
+    ]
+  },
+  "keywords": [
+    "color",
+    "palette",
+    "generator",
+    "design",
+    "tool",
+    "hex",
+    "picker",
+    "web-app"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "browser": "modern browsers with ES6+ support"
+  }
+}

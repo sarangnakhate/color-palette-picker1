@@ -1,0 +1,43 @@
+{
+  "name": "Color Palette Picker",
+  "version": "1.0.0",
+  "description": "A beautiful, modern color palette generator with color names, lock feature, and PNG export",
+  "type": "web-app",
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "tags": [
+    "color-picker",
+    "palette-generator",
+    "design-tool",
+    "web-app",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "features": [
+    "Random palette generation",
+    "Color names display",
+    "One-click HEX copy",
+    "Lock/unlock colors",
+    "PNG export",
+    "Keyboard shortcuts",
+    "Responsive design"
+  ],
+  "technologies": [
+    "HTML5",
+    "CSS3",
+    "JavaScript (ES6+)",
+    "Canvas API",
+    "Clipboard API"
+  ],
+  "settings": {
+    "defaultColors": 5,
+    "enableKeyboardShortcuts": true,
+    "enableAnimations": true
+  }
+}
